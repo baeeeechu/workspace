@@ -1,8 +1,10 @@
 # 사용자로부터 입력을 받아 그대로 출력하는 프로그램
 
+# 사용자로부터 입력을 받아 그대로 출력하는 프로그램
+
 def main():
-    user_input = input("입력하세요: ")
-    print("입력한 내용:", user_input)
+    user_input = input("입력하세요: ")  # 사용자에게 '입력하세요:' 라고 보여주고, 입력을 기다립니다.
+    print("입력한 내용:", user_input)  # 입력한 내용을 그대로 출력합니다.
 
 if __name__ == "__main__":
     main()
